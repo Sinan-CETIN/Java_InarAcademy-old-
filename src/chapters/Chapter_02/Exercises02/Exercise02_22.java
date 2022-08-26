@@ -8,6 +8,14 @@ public class Exercise02_22 {
 		int amount = input.nextInt();
 		int numberOfOneDollars = amount / 100;
 		int remainingAmount = amount % 100;
-		ınt numberOfQuarters =  remainingAmount
+		int numberOfQuarters =  remainingAmount / 25 ;
+		remainingAmount =   remainingAmount % 25;
+		int numberOfDimes =  remainingAmount / 10 ;
+		remainingAmount =  remainingAmount % 10;
+		int numberOfNickels =  remainingAmount / 5;
+		remainingAmount =  remainingAmount % 5;
+		int numberOfPennies =  remainingAmount;
+		System.out.println("Your amount " + amount + " consist of\n    " + numberOfOneDollars + " dollars\n    " + numberOfQuarters + " quarters\n    " + numberOfDimes + " dimes\n"
+				+ "    " + numberOfNickels + " nickels\n    " + numberOfPennies + " pennies"); 
 	}
 }
