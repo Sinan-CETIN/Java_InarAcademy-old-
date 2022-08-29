@@ -1,4 +1,4 @@
-package sinan03;
+
 import java.util.*;
 
 public class Exercise03_07 {

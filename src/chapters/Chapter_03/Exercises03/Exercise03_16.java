@@ -1,4 +1,4 @@
-package sinan03;
+
 
 
 public class Exercise03_16 {

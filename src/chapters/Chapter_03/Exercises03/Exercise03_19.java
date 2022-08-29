@@ -1,4 +1,3 @@
-package sinan03;
 import java.util.Scanner;
 
 public class Exercise03_19 {

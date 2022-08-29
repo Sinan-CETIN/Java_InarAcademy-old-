@@ -1,4 +1,3 @@
-package sinan03;
 
 import java.util.Scanner;
 

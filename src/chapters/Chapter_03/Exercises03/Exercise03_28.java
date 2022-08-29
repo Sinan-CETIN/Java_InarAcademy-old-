@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Exercise03_28 {
 
 	public static void main(String[] args) {
@@ -9,13 +10,12 @@ public class Exercise03_28 {
 		double width1 = input.nextDouble();
 		double height1 = input.nextDouble();
 		
-		System.out.print("Enter r2's center x-, y-coordinates, width, and height:");
+		
 		double x2 = input.nextDouble();
 		double y2 = input.nextDouble();
 		double width2 = input.nextDouble();
 		double height2 = input.nextDouble();
 		
-		boolean isInside = false;
 		if(Math.abs(x1 + width1 / 2) > Math.abs(x2 + width2 / 2) && 
 		Math.abs(y1 + height1 / 2) > Math.abs(y2 + height2 / 2))
 			System.out.println("r2 is inside r1");
